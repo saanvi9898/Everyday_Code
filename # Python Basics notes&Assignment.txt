@@ -1,0 +1,313 @@
+# Python Basics Notes
+
+1. Short Info about DSMP (Data Science and Machine Learning Program)
+
+DSMP is a structured program designed to teach data science and machine learning concepts.
+
+It covers various aspects like data analysis, machine learning algorithms, and Python programming.
+
+It includes real-world projects to enhance practical learning.
+
+2. About Python
+
+Python is an interpreted, high-level, general-purpose programming language.
+
+Created by Guido van Rossum in 1991.
+
+It emphasizes code readability, using indentation instead of braces.
+
+Python is dynamically typed and garbage-collected.
+
+Used in web development, data science, machine learning, automation, and more.
+
+Large standard library with modules like math, os, sys, datetime, etc.
+
+Supports multiple programming paradigms (procedural, object-oriented, functional).
+
+3. Python Output / print() Function
+
+The print() function is used to display output on the console.
+
+Syntax: print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
+
+Parameters:
+
+sep: Separator between multiple values (default: space  ).
+
+end: Defines the ending of the output (default: \n).
+
+file: Specifies where to output the result (default: sys.stdout).
+
+Example:
+
+print("Hello, Python!")  # Output: Hello, Python!
+print("Python", "is", "awesome", sep='-')  # Output: Python-is-awesome
+
+4. Python Data Types
+
+Numeric Types: int, float, complex
+
+Sequence Types: list, tuple, range
+
+Text Type: str
+
+Set Types: set, frozenset
+
+Mapping Type: dict
+
+Boolean Type: bool
+
+Binary Types: bytes, bytearray, memoryview
+
+Example:
+
+x = 10  # int
+y = 10.5  # float
+z = 2 + 3j  # complex
+name = "Python"  # str
+lst = [1, 2, 3]  # list
+
+5. Python Variables
+
+Variables are used to store values.
+
+No need to declare type (dynamically typed).
+
+Naming rules:
+
+Must start with a letter or underscore (_)
+
+Cannot be a keyword
+
+Case-sensitive
+
+Example:
+
+name = "John"  # String
+age = 25  # Integer
+height = 5.8  # Float
+
+6. Python Comments
+
+Used to explain code.
+
+Single-line comment: # This is a comment
+
+Multi-line comment: """ This is a multi-line comment """
+
+Example:
+
+# This is a single-line comment
+"""
+This is a
+multi-line comment
+"""
+
+7. Python Keywords and Identifiers
+
+Keywords: Reserved words in Python (if, else, for, while, etc.).
+
+Identifiers: Names assigned to variables, functions, classes.
+
+Rules for Identifiers:
+
+Must start with a letter or underscore (_).
+
+Can contain letters, digits, and underscores.
+
+Cannot be a Python keyword.
+
+Example:
+
+for = 5  # Invalid (for is a keyword)
+my_var = 10  # Valid
+
+8. Python User Input
+
+Used to take input from the user using input() function.
+
+By default, input() returns a string.
+
+Example:
+
+name = input("Enter your name: ")
+print("Hello, " + name)
+
+9. Python Type Conversion
+
+Implicit Conversion: Automatic conversion (int to float, etc.).
+
+Explicit Conversion (Type Casting): Using int(), float(), str(), etc.
+
+Example:
+
+a = 5  # int
+b = 2.5  # float
+c = a + b  # Implicit: int -> float
+print(type(c))  # Output: <class 'float'>
+
+x = "10"
+y = int(x)  # Explicit conversion
+
+10. Python Literals
+
+String Literals: "hello", 'Python', '''Multiline'''
+
+Numeric Literals: 10 (int), 10.5 (float), 2+3j (complex)
+
+Boolean Literals: True, False
+
+Special Literal: None
+
+Example:
+
+a = "Python"  # String literal
+b = 10  # Integer literal
+c = 10.5  # Float literal
+d = True  # Boolean literal
+e = None  # Special literal
+
+Interview Questions and Answers
+
+1. What is Python?
+
+Answer: Python is a high-level, interpreted programming language known for its readability and simplicity. It supports multiple paradigms like procedural, object-oriented, and functional programming.
+
+2. What are Python’s key features?
+
+Answer:
+
+Interpreted and dynamically typed
+
+Object-oriented
+
+Extensive standard library
+
+Platform-independent
+
+Supports multiple paradigms
+
+3. What are Python’s built-in data types?
+
+Answer: Python has int, float, complex, str, list, tuple, set, frozenset, dict, bool, bytes, bytearray, and memoryview.
+
+4. What is the difference between print() and input()?
+
+Answer:
+
+print() displays output.
+
+input() takes user input as a string.
+
+5. What is type conversion in Python?
+
+Answer: Type conversion is changing one data type into another. It can be implicit (done by Python automatically) or explicit (using functions like int(), float(), str()).
+
+6. What are Python literals?
+
+Answer: Literals are constant values assigned to variables. Examples:
+
+String literals ("Hello")
+
+Numeric literals (10, 10.5)
+
+Boolean literals (True, False)
+
+Special literal (None)
+
+7. What are Python identifiers?
+
+Answer: Identifiers are names for variables, functions, classes. They cannot be keywords and must follow naming rules.
+
+8. What are Python keywords?
+
+Answer: Reserved words in Python like if, else, while, for, def, import, etc.
+
+9. What are comments in Python?
+
+Answer:
+
+Single-line comment: # This is a comment
+
+Multi-line comment: """ This is a multi-line comment """
+
+10. What is None in Python?
+
+Answer: None is a special literal in Python that represents the absence of a value or a null value.
+
+
+
+=======================================
+**# Python Basics Assignment**
+
+## **Instructions:**
+
+Answer the following questions and complete the exercises based on Python basics. Write your answers clearly and provide code examples where applicable.
+
+---
+
+## **Section 1: Theory Questions**
+
+1. What is Python, and why is it widely used in programming?
+2. List and explain any five key features of Python.
+3. What are the different data types in Python? Provide examples.
+4. Explain the purpose and usage of the `print()` function with examples.
+5. What are variables in Python? How do you declare and assign values to them?
+6. Explain the difference between single-line and multi-line comments in Python with examples.
+7. What are Python keywords and identifiers? Provide examples.
+8. How does the `input()` function work in Python? Provide an example.
+9. What is type conversion in Python? Differentiate between implicit and explicit type conversion with examples.
+10. What are Python literals? List and explain different types of literals with examples.
+
+---
+
+## **Section 2: Coding Exercises**
+
+### **Exercise 1: Using the ****\`\`**** Function**
+
+Write a Python program to print the following output using the `print()` function:
+
+```
+Hello, Python!
+Welcome to Python programming.
+```
+
+### **Exercise 2: Working with Data Types**
+
+Create variables of the following data types and print their types:
+
+- Integer
+- Float
+- String
+- List
+- Boolean
+
+### **Exercise 3: User Input and Type Conversion**
+
+Write a Python program that:
+
+- Asks the user to enter their name and age.
+- Converts the age from a string to an integer.
+- Prints a message displaying the user’s name and age.
+
+### **Exercise 4: Using Comments and Keywords**
+
+Write a Python script that includes:
+
+- A single-line comment
+- A multi-line comment
+- At least three different Python keywords
+
+### **Exercise 5: Understanding Literals**
+
+Write a Python program that demonstrates different types of literals:
+
+- String literals
+- Numeric literals (integer, float, complex)
+- Boolean literals
+- Special literal (`None`)
+
+---
+
+
+
